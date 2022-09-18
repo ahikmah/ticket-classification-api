@@ -33,9 +33,6 @@ def clean_numbers(x):
 def replace_norms(text):
     pattern = re.compile(r'\b(' + '|'.join(mapping.keys()) + r')\b')
     return pattern.sub(lambda x: mapping[x.group()], text)
-
-with open(os.path.join(settings.MODELS, "tes_preprocessing.pickle"), 'rb') as handle:
-    data = pickle.load(handle)
     
 with open(os.path.join(settings.MODELS, "encoder.pickle"), 'rb') as handle:
     le = pickle.load(handle)

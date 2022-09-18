@@ -2,7 +2,6 @@
 django==3.2
 gunicorn==20.0.4
 django-heroku==0.3.1
-# cpu version of torch and torchvision for heroku to reduce slug size
 torch==1.11.0+cpu
 djangorestframework
 scikit-learn
