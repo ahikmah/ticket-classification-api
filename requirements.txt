@@ -6,4 +6,4 @@ django-heroku==0.3.1
 # cpu version of torch and torchvision for heroku to reduce slug size
 torch==1.11.0+cpu
 whitenoise==5.0.1
-rest_framework
+djangorestframework
