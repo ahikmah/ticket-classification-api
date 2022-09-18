@@ -16,7 +16,7 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-MODELS = os.path.join(BASE_DIR, 'ticket_classification\model')
+MODELS = os.path.join(BASE_DIR, 'ticket_classification\model\')
 
 STATIC_URL = '/static/'
 # path to where static files are copied for deployment (eg, for heroku)
