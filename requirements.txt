@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 django==3.2
-tensorflow
+tensorflow-cpu
 gunicorn==20.0.4
 django-heroku==0.3.1
 # cpu version of torch and torchvision for heroku to reduce slug size
