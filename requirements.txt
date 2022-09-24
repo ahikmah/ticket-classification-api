@@ -6,3 +6,4 @@ djangorestframework
 scikit-learn
 tensorflow-cpu==2.8.0
 dj-database-url
+protobuf==3.20.*
